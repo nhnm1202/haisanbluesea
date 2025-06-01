@@ -1,0 +1,356 @@
+<!-- Header partial -->
+
+<header>
+  <div class="bg-info bg-opacity-10">
+    <!-- Nút mở danh mục sản phẩm cho mobile -->
+    <div
+      class="d-flex d-lg-none justify-content-between align-items-center px-3 py-2"
+    >
+      <!-- Nút mở danh mục hiển thị icon -->
+      <button
+        class="btn p-0"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#mobileCategoryMenu"
+        aria-controls="mobileCategoryMenu"
+      >
+        <i class="fa-solid fa-bars fa-2x text-primary"></i>
+      </button>
+    </div>
+
+    <div class="container-fluid">
+      <!-- Logo -->
+      <div class="row align-items-center">
+        <div class="col-12 col-md-3 pt-3 text-center">
+          <a href="/"
+            ><img
+              src="/image/logo.png"
+              alt="logo"
+              class="img-fluid"
+              style="max-height: 70px; width: 120px"
+          /></a>
+        </div>
+
+        <!-- tìm kiếm -->
+        <div class="col-12 col-md-4 pt-3 me-5">
+          <form class="d-flex search-group" action="/search" method="get">
+            <input
+              id="searchInput"
+              name="q"
+              type="search"
+              placeholder="Tìm kiếm sản phẩm…"
+              aria-label="Search"
+              autocomplete="off"
+              class="form-control"
+            />
+            <button id="searchButton" class="search-button" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- thời gian làm việc -->
+        <div
+          class="col-md-2 mt-3 mt-md-0 d-none d-md-flex align-items-center pt-3"
+        >
+          <i class="far fa-calendar fa-2x me-2 text-info"></i>
+          <p class="mb-0 small">
+            Thời gian làm việc <br />
+            <span class="text-warning fw-semibold">8h-21h</span>
+          </p>
+        </div>
+
+        <!-- giao hàng -->
+        <div
+          class="col-md-2 mt-3 mt-md-0 d-none d-md-flex align-items-center pt-3"
+        >
+          <i class="fa-solid fa-truck fa-2x me-2 text-info"></i>
+          <p class="mb-0 small">
+            Giao hàng <br />
+            <span class="fw-semibold">nhanh chóng</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mb-0 mt-4 border border-1 border-dark" />
+  </div>
+  <!-------------------->
+  <!------ Nav Bar ----->
+  <!-------------------->
+  <div class="container-fluid px-5 py-0 my-0">
+    <div class="row align-items-stretch">
+      <!-- Dropdown danh mục -->
+      <div class="col-lg-3 mb-3 mb-lg-0 menu-full-height d-none d-lg-block">
+        <div class="dropdown w-100 h-100">
+          <button
+            class="btn dropdown-toggle w-100 h-100 d-flex justify-content-start align-items-center rounded-top-4"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            style="font-size: 1.6rem; background-color: #74c0fc"
+            id="dropdownDanhMuc"
+          >
+            <i class="fa-solid fa-bars me-3"></i> Danh Mục Hải Sản
+          </button>
+          <ul class="dropdown-menu w-100" aria-labelledby="dropdownDanhMuc">
+            <li>
+              <a class="dropdown-item" href="/products/cua"
+                ><i
+                  class="fa-solid fa-wind"
+                  style="color: #74c0fc; margin-right: 10px"
+                ></i
+                >Cua</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/products/tom"
+                ><i
+                  class="fa-solid fa-wind"
+                  style="color: #74c0fc; margin-right: 10px"
+                ></i
+                >Tôm các loại</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/products/so"
+                ><i
+                  class="fa-solid fa-wind"
+                  style="color: #74c0fc; margin-right: 10px"
+                ></i
+                >Sò</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/products/oc"
+                ><i
+                  class="fa-solid fa-wind"
+                  style="color: #74c0fc; margin-right: 10px"
+                ></i
+                >Ốc</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/products/ca"
+                ><i
+                  class="fa-solid fa-wind"
+                  style="color: #74c0fc; margin-right: 10px"
+                ></i
+                >Cá Hồi</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/products/muc"
+                ><i
+                  class="fa-solid fa-wind"
+                  style="color: #74c0fc; margin-right: 10px"
+                ></i
+                >Mực</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/products/hau"
+                ><i
+                  class="fa-solid fa-wind"
+                  style="color: #74c0fc; margin-right: 10px"
+                ></i
+                >Hàu</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/products/giaVi"
+                ><i
+                  class="fa-solid fa-wind"
+                  style="color: #74c0fc; margin-right: 10px"
+                ></i
+                >Gia Vị Hải Sản</a
+              >
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/products/doKho"
+                ><i
+                  class="fa-solid fa-wind"
+                  style="color: #74c0fc; margin-right: 10px"
+                ></i
+                >Đồ Khô</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"
+                ><i
+                  class="fa-solid fa-wind"
+                  style="color: #74c0fc; margin-right: 10px"
+                ></i
+                >Đang cập nhật</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Navbar -->
+      <div class="col-8 col-md-6 col-lg-4 mb-3 mb-lg-0">
+        <nav class="navbar navbar-expand-md navbar-light pt-3">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse show">
+              <ul class="navbar-nav w-100 justify-content-between fw-semibold">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/all-products">Tất cả sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!---------------------------------->
+      <!-- phone - giỏ hàng - tài khoản -->
+      <!---------------------------------->
+      <!-- Xuống dòng khi sm -->
+      <div class="w-100 d-block d-md-none"></div>
+      <div class="col-4 col-md-6 col-lg-4">
+        <div
+          class="d-flex justify-content-md-end justify-content-sm-start mx-md-4 align-items-center gap-5 pt-2"
+        >
+          <div
+            class="d-none d-md-flex align-items-center border p-2 text-bg-danger rounded"
+          >
+            <a
+              href="tel:0368356312"
+              class="text-decoration-none text-dark fw-semibold"
+              ><i class="fas fa-phone-alt text-info me-2"></i>0368356312</a
+            >
+          </div>
+          <!-- giỏ hàng -->
+          <!-- Giỏ hàng -->
+          <div class="d-flex align-items-center">
+            <a
+              href="/cart"
+              class="position-relative btn btn-outline-primary p-3 fs-4 rounded-circle"
+              title="Giỏ hàng"
+            >
+              <i class="fas fa-shopping-cart fa-lg"></i>
+              <span
+                id="cart-count"
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-5"
+              >
+                0
+              </span>
+            </a>
+          </div>
+
+          <!-- tài khoản -->
+          <div class="dropdown">
+            <button
+              class="btn d-flex align-items-center justify-content-center fs-2 p-3 pt-3 mt-2 dropdown-toggle"
+              type="button"
+              id="taiKhoanDropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              title="Tài Khoản"
+            >
+              <i class="fa-solid fa-user fa-lg"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="taiKhoanDropdown">
+              <li
+                class="btn d-flex align-items-center fs-4"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#loginModal"
+                title="Đăng nhập"
+              >
+                Đăng nhập
+              </li>
+              <li
+                class="btn d-flex align-items-center fs-4"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#registerModal"
+                title="Đăng Ký"
+              >
+                Đăng Ký
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------------------->
+  <!-- Offcanvas danh mục sản phẩm cho mobile -->
+  <!-------------------------------------------->
+  <div
+    class="offcanvas offcanvas-start"
+    tabindex="-1"
+    id="mobileCategoryMenu"
+    aria-labelledby="mobileCategoryMenuLabel"
+  >
+    <div class="offcanvas-header">
+      <h2 class="offcanvas-title" id="mobileCategoryMenuLabel">
+        Danh mục sản phẩm
+      </h2>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="offcanvas"
+        aria-label="Đóng"
+      ></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="list-group">
+        <li class="list-group-item">
+          <i class="fa-solid fa-wind me-2 text-primary"></i
+          ><a href="/products/cua " class="text-decoration-none">Cua</a>
+        </li>
+        <li class="list-group-item">
+          <i class="fa-solid fa-wind me-2 text-primary"></i
+          ><a href="/products/tom" class="text-decoration-none">Tôm các loại</a>
+        </li>
+        <li class="list-group-item">
+          <i class="fa-solid fa-wind me-2 text-primary"></i
+          ><a href="/products/so" class="text-decoration-none">Sò</a>
+        </li>
+        <li class="list-group-item">
+          <i class="fa-solid fa-wind me-2 text-primary"></i
+          ><a href="/products/oc" class="text-decoration-none">Ốc</a>
+        </li>
+        <li class="list-group-item">
+          <i class="fa-solid fa-wind me-2 text-primary"></i
+          ><a href="/products/ca " class="text-decoration-none">Cá Hồi</a>
+        </li>
+        <li class="list-group-item">
+          <i class="fa-solid fa-wind me-2 text-primary"></i
+          ><a href="/products/muc" class="text-decoration-none">Mực</a>
+        </li>
+        <li class="list-group-item">
+          <i class="fa-solid fa-wind me-2 text-primary"></i
+          ><a href="/products/hau" class="text-decoration-none">Hàu</a>
+        </li>
+        <li class="list-group-item">
+          <i class="fa-solid fa-wind me-2 text-primary"></i
+          ><a href="/products/giaVi" class="text-decoration-none"
+            >Gia Vị Hải Sản</a
+          >
+        </li>
+        <li class="list-group-item">
+          <i class="fa-solid fa-wind me-2 text-primary"></i
+          ><a href="/products/doKho" class="text-decoration-none">Đồ Khô</a>
+        </li>
+        <li class="list-group-item">
+          <i class="fa-solid fa-wind me-2 text-primary"></i
+          ><a href="" class="text-decoration-none">Đang Cập Nhật</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<%- include('auth-modals') %> <%- include('toast') %>

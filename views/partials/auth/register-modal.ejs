@@ -1,0 +1,98 @@
+<div
+  class="modal fade"
+  id="registerModal"
+  tabindex="-1"
+  aria-labelledby="registerModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h5 class="modal-title fs-2" id="registerModalLabel">
+          Đăng ký tài khoản
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Đóng"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form
+          id="registerForm"
+          action="/about-form-login/register.html"
+          method="POST"
+          novalidate
+        >
+          <!-- Họ và tên -->
+          <div class="mb-3">
+            <label for="fullname" class="form-label fs-2">Họ và tên</label>
+            <input
+              type="text"
+              class="form-control fs-4"
+              id="fullname"
+              name="fullname"
+              placeholder="Nhập họ và tên"
+              required
+            />
+          </div>
+          <!-- Email -->
+          <div class="mb-3">
+            <label for="emailReg" class="form-label fs-2">Email</label>
+            <input
+              type="email"
+              class="form-control fs-4"
+              id="emailReg"
+              name="email"
+              placeholder="Nhập email của bạn"
+              required
+            />
+          </div>
+          <!-- Mật khẩu -->
+          <div class="mb-3">
+            <label for="passwordReg" class="form-label fs-2">Mật khẩu</label>
+            <input
+              type="password"
+              class="form-control fs-4"
+              id="passwordReg"
+              name="password"
+              placeholder="Nhập mật khẩu"
+              required
+            />
+          </div>
+          <!-- Nhập lại mật khẩu -->
+          <div class="mb-3">
+            <label for="confirmPassword" class="form-label fs-2">
+              Nhập lại mật khẩu
+            </label>
+            <input
+              type="password"
+              class="form-control fs-4"
+              id="confirmPassword"
+              name="confirmPassword"
+              placeholder="Nhập lại mật khẩu"
+              required
+            />
+            <div class="invalid-feedback fs-4">
+              Mật khẩu không khớp. Vui lòng kiểm tra lại.
+            </div>
+          </div>
+          <!-- Nút Đăng ký -->
+          <button type="submit" class="btn btn-info w-100 fs-3">Đăng ký</button>
+        </form>
+        <div class="text-center mt-3 fs-4">
+          Đã có tài khoản?
+          <a
+            href="#"
+            data-bs-target="#loginModal"
+            data-bs-toggle="modal"
+            data-bs-dismiss="modal"
+          >
+            Đăng Nhập
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

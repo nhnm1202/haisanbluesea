@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1",
+    "hh": "ca",
+    "name": "Cá Hồi Xông Khói",
+    "price": "269.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/ca-hoi-xong-khoi/ca-hoi-xong-khoi.jpg",
+    "link": "/product-detail/1"
+  },
+  {
+    "id": "2",
+    "hh": "ca",
+    "name": "Cá Hồi Cắt Khoanh",
+    "price": "195.000đ",
+    "origin": "Chile",
+    "image": "/image/ca-hoi-cat-khoanh/ca-hoi-cat-khoanh.webp",
+    "link": "/product-detail/2"
+  },
+  {
+    "id": "3",
+    "hh": "ca",
+    "name": "Cá Hồi Nguyên Con Tươi",
+    "price": "590.000đ",
+    "origin": "Na Uy",
+    "image": "/image/ca-hoi-nguyen-con/ca-hoi-nguyen-con.webp",
+    "link": "/product-detail/3"
+  },
+  {
+    "id": "4",
+    "hh": "ca",
+    "name": "Cá Hồi Phi Lê Tươi",
+    "price": "1.350.000đ",
+    "origin": "Na Uy",
+    "image": "/image/ca-hoi-phi-le/ca-hoi-phi-le.webp",
+    "link": "/product-detail/4"
+  },
+  {
+    "id": "5",
+    "hh": "ca",
+    "name": "Thân Cá Hồi Phi Lê Tươi",
+    "price": "175.000đ",
+    "origin": "Na Uy",
+    "image": "/image/than-ca-hoi-phi-le/than-ca-hoi-phi-le.webp",
+    "link": "/product-detail/5"
+  },
+  {
+    "id": "6",
+    "hh": "tom",
+    "name": "Tôm Càng Xanh Sống",
+    "price": "330.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/tom-cang-xanh/tom-cang-xanh.webp",
+    "link": "/product-detail/6"
+  },
+  {
+    "id": "7",
+    "hh": "tom",
+    "name": "Tôm Hùm Alaska Sống",
+    "price": "1.490.000đ",
+    "origin": "Canada",
+    "image": "/image/tom-alaska/tom-alaska.webp",
+    "link": "/product-detail/7"
+  },
+  {
+    "id": "8",
+    "hh": "tom",
+    "name": "Tôm Hùm Xanh Sống",
+    "price": "1.290.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/tom-hum-xanh/tom-hum-xanh.webp",
+    "link": "/product-detail/8"
+  },
+  {
+    "id": "9",
+    "hh": "tom",
+    "name": "Tôm Hùm Bông Sống",
+    "price": "745.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/tom-hum-bong/tom-hum-bong.webp",
+    "link": "/product-detail/9"
+  },
+  {
+    "id": "10",
+    "hh": "cua",
+    "name": "Cua Thịt Cà Mau Sống",
+    "price": "215.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/cua-thit-CM/cua-thit-CM.webp",
+    "link": "/product-detail/10"
+  },
+  {
+    "id": "11",
+    "hh": "so",
+    "name": "Sò Huyết Sống 70-80",
+    "price": "135.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/so-huyet-7880/so-huyet-7880.webp",
+    "link": "/product-detail/11"
+  },
+  {
+    "id": "12",
+    "hh": "oc",
+    "name": "Ốc Bulot Ireland Đông Lạnh",
+    "price": "329.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/oc-Bulot-Ireland/oc-Bulot-Ireland.webp",
+    "link": "/product-detail/12"
+  },
+  {
+    "id": "13",
+    "hh": "muc",
+    "name": "Mực Ống",
+    "price": "259.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/muc-ong/muc-ong.webp",
+    "link": "/product-detail/13"
+  },
+  {
+    "id": "14",
+    "hh": "giaVi",
+    "name": "Gia Vị Sashimi",
+    "price": "25.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/gia-vi/gia-vi.webp",
+    "link": "/product-detail/14"
+  },
+  {
+    "id": "15",
+    "hh": "hau",
+    "name": "Hàu Sữa Tươi Ngon",
+    "price": "100.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/hau/hau.jpg",
+    "link": "/product-detail/15"
+  },
+  {
+    "id": "16",
+    "hh": "doKho",
+    "name": "Tôm Khô",
+    "price": "550.000đ",
+    "origin": "Việt Nam",
+    "image": "/image/tom-kho/tom-kho.jpg",
+    "link": "/product-detail/16"
+  }
+]

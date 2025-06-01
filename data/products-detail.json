@@ -1,0 +1,347 @@
+[
+  {
+    "id": 1,
+    "name": "Cá Hồi Nguyên Con Tươi",
+    "brand": "Na Uy",
+    "status": "Còn hàng",
+    "price": "590000",
+    "currency": "VND",
+    "specs": {
+      "quy_cach": "Size 5-6kg/con (đã làm sạch ruột, nguyên con, còn đầu)",
+      "tinh_trang": "Tươi. Giao nguyên con hoặc Phile theo yêu cầu (tỷ lệ hao hụt khi phile từ 3%-5%)",
+      "xuat_xu": "NaUy",
+      "cam_ket": "Chất lượng chuẩn ăn sống sashimi.",
+      "bao_quan": "Ngăn mát tủ lạnh nhiệt độ 2-5°C"
+    },
+    "images": [
+      "/image/ca-hoi-nguyen-con/ca-hoi-nguyen-con.webp",
+      "/image/ca-hoi-nguyen-con/ca-hoi-nguyen-con-1.webp",
+      "/image/ca-hoi-nguyen-con/ca-hoi-nguyen-con-2.jpg",
+      "/image/ca-hoi-nguyen-con/ca-hoi-nguyen-con-3.webp",
+      "/image/ca-hoi-nguyen-con/ca-hoi-nguyen-con-4.webp"
+    ],
+    "description": "Cá hồi nguyên con tươi, đánh bắt và sơ chế tại Na Uy, giữ trọn vị ngon và chất dinh dưỡng.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 2,
+    "name": "Cá Hồi Cắt Khoanh",
+    "brand": "Chile",
+    "status": "Còn hàng",
+    "price": "195000",
+    "currency": "VND",
+    "specs": {
+      "quy_cach": "Gồm 2 khoanh cá, hút chân không từng túi. Khoanh cá có thể là phần thân giữa hoặc phần đuôi (không có đầu cá).",
+      "tinh_trang": "Đông lạnh",
+      "xuat_xu": "Chile",
+      "bao_quan": "24 tháng kể từ NSX, bảo quản nhiệt độ tốt nhất từ -18°C"
+    },
+    "images": [
+      "/image/ca-hoi-cat-khoanh/ca-hoi-cat-khoanh.webp",
+      "/image/ca-hoi-cat-khoanh/ca-hoi-cat-khoanh-1.webp",
+      "/image/ca-hoi-cat-khoanh/ca-hoi-cat-khoanh-2.webp"
+    ],
+    "description": "Cá hồi được thái khoanh đều, đóng gói vỉ 200g, bảo quản đông lạnh để giữ nguyên hương vị tươi ngon.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 3,
+    "name": "Cá Hồi Xông Khói Vị Truyền Thống",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "269000",
+    "currency": "VND",
+    "specs": {
+      "quy_cach": "Hộp 200g",
+      "tinh_trang": "Đông lạnh",
+      "xuat_xu": "Việt Nam",
+      "bao_quan": "-18°C, HSD 6 tháng"
+    },
+    "images": [
+      "/image/ca-hoi-xong-khoi/ca-hoi-xong-khoi.jpg",
+      "/image/ca-hoi-xong-khoi/ca-hoi-1.webp",
+      "/image/ca-hoi-xong-khoi/ca-hoi-2.webp",
+      "/image/ca-hoi-xong-khoi/ca-hoi-3.webp",
+      "/image/ca-hoi-xong-khoi/ca-hoi-4.webp",
+      "/image/ca-hoi-xong-khoi/ca-hoi-5.webp"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat lectus, nec elementum lacus faucibus non.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 4,
+    "name": "Cá Hồi Phi Lê Tươi",
+    "brand": "Na Uy",
+    "status": "Còn hàng",
+    "price": "1350000",
+    "currency": "VND",
+    "specs": {
+      "quy_cách": "Nguyên miếng 2 - 2,5kg.",
+      "tình_trạng": "Tươi",
+      "xuất_xứ": "NaUy",
+      "cam_kết": "Chất lượng chuẩn ăn sống sashimi.",
+      "bảo_quản": "ngăn mát tủ lạnh từ 2-5°C (hạn sử dụng\n              3 ngày kể từ ngày sản xuất)"
+    },
+    "images": [
+      "/image/ca-hoi-phi-le/ca-hoi-phi-le.webp",
+      "/image/ca-hoi-phi-le/ca-hoi-phi-le-1.jpg",
+      "/image/ca-hoi-phi-le/ca-hoi-phi-le-2.webp",
+      "/image/ca-hoi-phi-le/ca-hoi-phi-le-3.webp"
+    ],
+    "description": "Phi lê cá hồi tươi, được sơ chế tại Na Uy, đóng gói vỉ 200g, bảo\n            quản đông lạnh để giữ trọn dinh dưỡng và hương vị.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 5,
+    "name": "Thân Cá Hồi Phi Lê Tươi",
+    "brand": "Na Uy",
+    "status": "Còn hàng",
+    "price": "175000",
+    "currency": "VND",
+    "specs": {
+      "quy_cách": "Thân phi lê ~200g/vỉ",
+      "tình_trạng": "Đông lạnh",
+      "xuất_xứ": "Na Uy",
+      "bảo_quản": "-18°C, HSD 6 tháng"
+    },
+    "images": [
+      "/image/than-ca-hoi-phi-le/than-ca-hoi-phi-le.webp",
+      "/image/than-ca-hoi-phi-le/than-ca-hoi-phi-le-1.webp",
+      "/image/than-ca-hoi-phi-le/than-ca-hoi-phi-le-2.webp"
+    ],
+    "description": "Thân cá hồi phi lê tươi, sơ chế và đóng gói tại Na Uy, đảm bảo độ\n            tươi ngon và dinh dưỡng cao.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 6,
+    "name": "Tôm Càng Xanh Sống",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "330000",
+    "currency": "VND",
+    "specs": {
+      "quy_cách": "Size 13 - 15 con/kg",
+      "tình_trạng": "Giao sống nước kèm oxi",
+      "xuất_xứ": "Việt Nam"
+    },
+    "images": [
+      "/image/tom-cang-xanh/tom-cang-xanh.webp",
+      "/image/tom-cang-xanh/tom-cang-xanh-1.webp",
+      "/image/tom-cang-xanh/tom-cang-xanh-2.webp"
+    ],
+    "description": "Tôm càng xanh tươi sống, đánh bắt tại Việt Nam và sơ chế nhanh gọn,\n            bảo quản lạnh để giữ trọn vị ngọt và độ giòn.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 7,
+    "name": "Tôm Hùm Alaska Sống",
+    "brand": "Canada",
+    "status": "Còn hàng",
+    "price": "1490000",
+    "currency": "VND",
+    "specs": {
+      "tôm_hùm_alaska": "Tôm hùm Alaska  còn gọi là\n              Tôm hùm Canada",
+      "quy_cách": "1 con ~500g–1kg",
+      "tình_trạng": "Giao sống tận nơi",
+      "xuất_xứ": "Canada",
+      "cam_kết": "Đảm bảo VSATTP, nhập khẩu chính ngạch &\n              giấy tờ kiểm định"
+    },
+    "images": [
+      "/image/tom-alaska/tom-alaska.webp",
+      "/image/tom-alaska/tom-hum-alaska-1.webp",
+      "/image/tom-alaska/tom-hum-alaska-2.webp",
+      "/image/tom-alaska/tom-hum-alaska-3.webp"
+    ],
+    "description": "Tôm hùm Alaska sống, được đánh bắt và bảo quản lạnh ngay sau thu\n            hoạch, giữ trọn độ tươi ngon và bổ dưỡng.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 8,
+    "name": "Tôm Hùm Xanh Sống",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "1290000",
+    "currency": "VND",
+    "specs": {
+      "quy_cách": "1 con ~500g–800g",
+      "tình_trạng": "giao sống tận nơi, có đóng thùng xốp\n              đá gel giao xa cam kết tươi sống 4-6h phù hợp biếu tặng",
+      "xuất_xứ": "Việt Nam",
+      "cam_kết": "Đảo bảo ATVSTP, giấy tờ kiểm định, nguồn\n              gốc xuất xứ rõ ràng."
+    },
+    "images": [
+      "/image/tom-hum-xanh/tom-hum-xanh.webp",
+      "/image/tom-hum-xanh/tom-hum-xanh-1.jpg",
+      "/image/tom-hum-xanh/tom-hum-xanh-2.webp"
+    ],
+    "description": "Tôm hùm xanh sống, nuôi trồng tại vùng nước lạnh Việt Nam, cho thịt\n            chắc chắc và ngọt tự nhiên.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 9,
+    "name": "Tôm Hùm Bông Sống",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "745000",
+    "currency": "VND",
+    "specs": {
+      "quy_cách": "1 con ~300g–500g",
+      "tình_trạng": "Giao sống tận nơi",
+      "xuất_xứ": "Việt Nam",
+      "bảo_quản": "0–4°C, HSD 2 ngày"
+    },
+    "images": [
+      "/image/tom-hum-bong/tom-hum-bong.webp",
+      "/image/tom-hum-bong/tom-hum-bong-1.webp",
+      "/image/tom-hum-bong/tom-hum-bong-2.webp"
+    ],
+    "description": "Tôm hùm bông sống, nuôi trồng tại vùng biển Việt Nam với kỹ thuật\n            hiện đại, giữ độ tươi và độ béo tự nhiên.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 10,
+    "name": "Cua Thịt Cà Mau Sống",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "215000",
+    "currency": "VND",
+    "specs": {
+      "quy_cách": "Con tươi ~300g–500g",
+      "tình_trạng": "Sống",
+      "xuất_xứ": "Việt Nam",
+      "bảo_quản": "0–4°C, HSD 2 ngày"
+    },
+    "images": [
+      "/image/cua-thit-CM/cua-thit-CM.webp",
+      "/image/cua-thit-CM/cua-thit-CM-1.webp",
+      "/image/cua-thit-CM/cua-thit-CM-2.webp"
+    ],
+    "description": "Cua thịt Cà Mau sống, đánh bắt và sơ chế tại miền Tây, thịt chắc và\n            ngọt tự nhiên.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 11,
+    "name": "Sò Huyết Sống 70-80",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "135000",
+    "currency": "VND",
+    "specs": {
+      "quy_cách": "Size 70 - 80 con/kg",
+      "tình_trạng": "Sống",
+      "xuất_xứ": "Việt Nam",
+      "bảo_quản": "0–4°C, HSD 2 ngày"
+    },
+    "images": [
+      "/image/so-huyet-7880/so-huyet-7880.webp",
+      "/image/so-huyet-7880/so-huyet-7880-1.webp",
+      "/image/so-huyet-7880/so-huyet-7880-2.webp"
+    ],
+    "description": "Sò huyết sống loại 70-80, đánh bắt và đóng gói tại Việt Nam, giữ độ\n            tươi ngon và vị ngọt tự nhiên.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 12,
+    "name": "Ốc Bulot Ireland Đông Lạnh",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "329000",
+    "currency": "VND",
+    "specs": {
+      "quy_cách": "Túi 500g",
+      "tình_trạng": "Đông lạnh",
+      "xuất_xứ": "Việt Nam",
+      "bảo_quản": "-18°C, HSD 6 tháng"
+    },
+    "images": [
+      "/image/oc-Bulot-Ireland/oc-Bulot-Ireland.webp",
+      "/image/oc-Bulot-Ireland/oc-Bulot-Ireland-1.jpg",
+      "/image/oc-Bulot-Ireland/oc-Bulot-Ireland-2.webp",
+      "/image/oc-Bulot-Ireland/oc-Bulot-Ireland-3.jpg"
+    ],
+    "description": "Ốc Bulot Ireland đông lạnh, nhập khẩu từ Pháp, cấp đông nhanh để giữ\n            trọn hương vị và độ giòn.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 13,
+    "name": "Mực Ống",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "329000",
+    "currency": "VND",
+    "specs": {
+      "quy_cách": "Túi 500g",
+      "tình_trạng": "Đông lạnh",
+      "xuất_xứ": "Việt Nam",
+      "bảo_quản": "-18°C, HSD 6 tháng"
+    },
+    "images": [
+      "/image/oc-Bulot-Ireland/oc-Bulot-Ireland.webp",
+      "/image/oc-Bulot-Ireland/oc-Bulot-Ireland-1.jpg",
+      "/image/oc-Bulot-Ireland/oc-Bulot-Ireland-2.webp",
+      "/image/oc-Bulot-Ireland/oc-Bulot-Ireland-3.jpg"
+    ],
+    "description": "Mực ống câu là một loại hải sản rất phổ biến và được ưa chuộng trên toàn thế giới. Chúng được đánh bắt bằng cách sử dụng các mồi nhỏ như tôm hoặc sứa để thu hút mực đến gần và sử dụng lưỡi câu để bắt chúng. Thịt mực ống có mùi vị đặc trưng và rất phù hợp với nhiều món ăn khác nhau. Nó cũng là một nguồn dinh dưỡng tuyệt vời cho sức khỏe của con người.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 14,
+    "name": "Gia Vị Sashimi",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "25000",
+    "currency": "VND",
+    "specs": {
+      "hdsd": "ăn kèm các món sushi, sashimi,...",
+      "bảo_quản": "Nhiệt độ từ 0 đến 5°C",
+      "hsd": "7 ngày kể từ NSX"
+    },
+    "images": [
+      "/image/gia-vi/gia-vi.webp",
+      "/image/gia-vi/gia-vi-1.webp",
+      "/image/gia-vi/gia-vi-2.webp",
+      "/image/gia-vi/gia-vi-3.webp"
+    ],
+    "description": "Tôm hùm xanh sống, nuôi trồng tại vùng nước lạnh Việt Nam, cho thịt chắc chắc và ngọt tự nhiên.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 15,
+    "name": "Hàu Sữa Tươi Ngon",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "100000",
+    "currency": "VND",
+    "specs": {
+      "quy_cach": "1kg ~ 10–12 con",
+      "tình_trạng": "Hàng sống / Ướp lạnh",
+      "hsd_bảo_quản": "Ngăn mát 0–4°C, sử dụng trong vòng 2 ngày sau khi giao"
+    },
+    "images": [
+      "/image/hau/hau.jpg",
+      "/image/hau/hau-1.jpg",
+      "/image/hau/hau-3.jpg"
+    ],
+    "description": "Cá hồi được thái khoanh đều, đóng gói vỉ 200g, bảo quản đông lạnh để giữ nguyên hương vị tươi ngon.",
+    "review": "Chưa có đánh giá nào."
+  },
+  {
+    "id": 16,
+    "name": "Tôm Khô Ngon",
+    "brand": "Việt Nam",
+    "status": "Còn hàng",
+    "price": "150000",
+    "currency": "VND",
+    "specs": {
+      "quy_cach": "1 túi 100g",
+      "tình_trạng": "Còn mới",
+      "xuất_xứ": "Việt Nam"
+    },
+    "images": [
+      "/image/tom-kho/tom-kho.jpg",
+      "/image/tom-kho/tom-kho-1.jpg",
+      "/image/tom-kho/tom-kho-2.jpg"
+    ],
+    "description": "Tôm càng xanh tươi sống, đánh bắt tại Việt Nam và sơ chế nhanh gọn, bảo quản lạnh để giữ trọn vị ngọt và độ giòn.",
+    "review": "Chưa có đánh giá nào."
+  }
+]
