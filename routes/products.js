@@ -17,6 +17,15 @@ router.get("/all-products", (req, res) => {
     res.render("all-products", { products }); // ✅ Truyền biến products vào view
   });
 });
+// ✅ Trang chủ
+router.get("/", (req, res) => {
+  fs.readFile(productFilePath, "utf-8", (err, data) => {
+    if (err) return res.status(500).send("Lỗi đọc dữ liệu sản phẩm");
+
+    const products = JSON.parse(data);
+    res.render("index", { products }); // 👈 Truyền biến vào view
+  });
+});
 
 //////////////////////////
 // Trang theo loại (ca, tom, cua, muc, ...)

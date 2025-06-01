@@ -95,6 +95,301 @@
           </div>
         </div>
       </div>
+
+      <!-- Danh mục nổi bật -->
+      <section class="container-fluid py-4 mt-5 border bg-info-subtle">
+        <h2 class="text-center mb-4 fw-bold">Danh Mục Nổi Bật</h2>
+        <div class="row text-center">
+          <div class="col-6 col-md-3 mb-3">
+            <a href="/products/ca" class="text-decoration-none">
+              <i class="fas fa-fish fa-3x mb-2"></i>
+              <p class="fs-5 fw-bold">Cá</p>
+            </a>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <a href="/products/tom" class="text-decoration-none">
+              <i class="fas fa-shrimp fa-3x mb-2"></i>
+              <p class="fs-5 fw-bold">Tôm</p>
+            </a>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <a href="/products/muc" class="text-decoration-none">
+              <i class="fas fa-water fa-3x mb-2"></i>
+              <p class="fs-5 fw-bold">Mực</p>
+            </a>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <a href="/products/so" class="text-decoration-none">
+              <i class="fas fa-leaf fa-3x mb-2"></i>
+              <p class="fs-5 fw-bold">Sò - Ốc</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <img
+        class="container-fluid"
+        src="/image/banner-1.webp"
+        style="height: 200px"
+        alt="banner-1"
+      />
+
+      <!-- hàng mới về  -->
+      <section class="container py-5">
+        <h2 class="text-center fw-bold mb-5">Hàng mới về</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- san pham 1 -->
+          <div class="col-lg-1"></div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-hover h-100 shadow-sm">
+              <img
+                src="<%= products[11].image %>"
+                class="card-img-top"
+                alt="<%= products[11].name %>"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title"><%= products[11].name %></h5>
+                <p class="card-text text-center mb-2">
+                  Xuất xứ: <%= products[11].origin %><br />
+                  <span class="text-danger fw-bold fs-2"
+                    ><%= products[11].price %></span
+                  >
+                </p>
+                <div class="d-flex justify-content-center gap-4 mt-auto">
+                  <button
+                    type="button"
+                    class="btn btn-add-to-cart btn-info btn-sm p-2 fs-4"
+                    data-id="<%= products[11].id %>"
+                    data-name="<%= products[11].name %>"
+                    data-price="<%= products[11].price %>"
+                    data-image="<%= products[11].image %>"
+                  >
+                    <i class="fas fa-cart-plus me-2"></i> Thêm vào giỏ
+                  </button>
+                  <a
+                    href="/product-detail/<%= products[11].id %>"
+                    class="btn btn-warning btn-sm p-2 fs-4"
+                    ><i class="fas fa-credit-card me-2"></i> Mua ngay</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- san pham 2 -->
+          <div class="col-lg-1"></div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-hover h-100 shadow-sm">
+              <img
+                src="<%= products[14].image %>"
+                class="card-img-top"
+                alt="<%= products[14].name %>"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title"><%= products[14].name %></h5>
+                <p class="card-text text-center mb-2">
+                  Xuất xứ: <%= products[14].origin %><br />
+                  <span class="text-danger fw-bold fs-2"
+                    ><%= products[14].price %></span
+                  >
+                </p>
+                <div class="d-flex justify-content-center gap-4 mt-auto">
+                  <button
+                    type="button"
+                    class="btn btn-add-to-cart btn-info btn-sm p-2 fs-4"
+                    data-id="<%= products[14].id %>"
+                    data-name="<%= products[14].name %>"
+                    data-price="<%= products[14].price %>"
+                    data-image="<%= products[14].image %>"
+                  >
+                    <i class="fas fa-cart-plus me-2"></i> Thêm vào giỏ
+                  </button>
+                  <a
+                    href="/product-detail/<%= products[14].id %>"
+                    class="btn btn-warning btn-sm p-2 fs-4"
+                    ><i class="fas fa-credit-card me-2"></i> Mua ngay</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- san pham 3 -->
+          <div class="col-lg-1"></div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-hover h-100 shadow-sm">
+              <img
+                src="<%= products[13].image %>"
+                class="card-img-top"
+                alt="<%= products[13].name %>"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title"><%= products[13].name %></h5>
+                <p class="card-text text-center mb-2">
+                  Xuất xứ: <%= products[13].origin %><br />
+                  <span class="text-danger fw-bold fs-2"
+                    ><%= products[13].price %></span
+                  >
+                </p>
+                <div class="d-flex justify-content-center gap-4 mt-auto">
+                  <button
+                    type="button"
+                    class="btn btn-add-to-cart btn-info btn-sm p-2 fs-4"
+                    data-id="<%= products[13].id %>"
+                    data-name="<%= products[13].name %>"
+                    data-price="<%= products[13].price %>"
+                    data-image="<%= products[13].image %>"
+                  >
+                    <i class="fas fa-cart-plus me-2"></i> Thêm vào giỏ
+                  </button>
+                  <a
+                    href="/product-detail/<%= products[13].id %>"
+                    class="btn btn-warning btn-sm p-2 fs-4"
+                    ><i class="fas fa-credit-card me-2"></i> Mua ngay</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center pe-5 gap-5">
+          <div class="col-12 col-lg-5">
+            <img
+              class="container d-flex justify-content-center"
+              src="/image/banner-2.png"
+              style="height: 200px; width: 600px"
+              alt="banner-1"
+            />
+          </div>
+
+          <div class="col-12 col-lg-5">
+            <img
+              class="container d-flex justify-content-center"
+              src="/image/banner.png"
+              style="height: 200px; width: 600px"
+              alt="banner-1"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Sản phẩm bán chạy -->
+
+      <section class="container py-5">
+        <h2 class="text-center fw-bold mb-5">Sản Phẩm Bán Chạy</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- san pham  ban chay 1 -->
+          <div class="col-lg-1"></div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-hover h-100 shadow-sm">
+              <img
+                src="<%= products[1].image %>"
+                class="card-img-top"
+                alt="<%= products[1].name %>"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title"><%= products[1].name %></h5>
+                <p class="card-text text-center mb-2">
+                  Xuất xứ: <%= products[1].origin %><br />
+                  <span class="text-danger fw-bold fs-2"
+                    ><%= products[1].price %></span
+                  >
+                </p>
+                <div class="d-flex justify-content-center gap-4 mt-auto">
+                  <button
+                    type="button"
+                    class="btn btn-add-to-cart btn-info btn-sm p-2 fs-4"
+                    data-id="<%= products[1].id %>"
+                    data-name="<%= products[1].name %>"
+                    data-price="<%= products[1].price %>"
+                    data-image="<%= products[1].image %>"
+                  >
+                    <i class="fas fa-cart-plus me-2"></i> Thêm vào giỏ
+                  </button>
+                  <a
+                    href="/product-detail/<%= products[1].id %>"
+                    class="btn btn-warning btn-sm p-2 fs-4"
+                    ><i class="fas fa-credit-card me-2"></i> Mua ngay</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- san pham ban chay 2 -->
+          <div class="col-lg-1"></div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-hover h-100 shadow-sm">
+              <img
+                src="<%= products[8].image %>"
+                class="card-img-top"
+                alt="<%= products[8].name %>"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title"><%= products[8].name %></h5>
+                <p class="card-text text-center mb-2">
+                  Xuất xứ: <%= products[8].origin %><br />
+                  <span class="text-danger fw-bold fs-2"
+                    ><%= products[8].price %></span
+                  >
+                </p>
+                <div class="d-flex justify-content-center gap-4 mt-auto">
+                  <button
+                    type="button"
+                    class="btn btn-add-to-cart btn-info btn-sm p-2 fs-4"
+                    data-id="<%= products[8].id %>"
+                    data-name="<%= products[8].name %>"
+                    data-price="<%= products[8].price %>"
+                    data-image="<%= products[8].image %>"
+                  >
+                    <i class="fas fa-cart-plus me-2"></i> Thêm vào giỏ
+                  </button>
+                  <a
+                    href="/product-detail/<%= products[8].id %>"
+                    class="btn btn-warning btn-sm p-2 fs-4"
+                    ><i class="fas fa-credit-card me-2"></i> Mua ngay</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- san pham ban chay 3 -->
+          <div class="col-lg-1"></div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-hover h-100 shadow-sm">
+              <img
+                src="<%= products[12].image %>"
+                class="card-img-top"
+                alt="<%= products[12].name %>"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title"><%= products[12].name %></h5>
+                <p class="card-text text-center mb-2">
+                  Xuất xứ: <%= products[12].origin %><br />
+                  <span class="text-danger fw-bold fs-2"
+                    ><%= products[12].price %></span
+                  >
+                </p>
+                <div class="d-flex justify-content-center gap-4 mt-auto">
+                  <button
+                    type="button"
+                    class="btn btn-add-to-cart btn-info btn-sm p-2 fs-4"
+                    data-id="<%= products[12].id %>"
+                    data-name="<%= products[12].name %>"
+                    data-price="<%= products[12].price %>"
+                    data-image="<%= products[12].image %>"
+                  >
+                    <i class="fas fa-cart-plus me-2"></i> Thêm vào giỏ
+                  </button>
+                  <a
+                    href="/product-detail/<%= products[12].id %>"
+                    class="btn btn-warning btn-sm p-2 fs-4"
+                    ><i class="fas fa-credit-card me-2"></i> Mua ngay</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <%- include('partials/footer') %>

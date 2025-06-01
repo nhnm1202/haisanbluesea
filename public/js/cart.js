@@ -24,11 +24,13 @@ function renderCart() {
         <td>
           <input type="number" value="${item.quantity}" data-id="${
       item.id
-    }" class="form-control quantity-input" min="1" style="width: 100px;" p-3 fs-2 />
+    }" class="form-control quantity-input  p-3 fs-4" min="1" style="width: 100px;" />
         </td>
         <td class="fw-bold">${formatCurrency(subtotal)}</td>
         <td>
-          <button class="btn btn-sm btn-danger btn-remove" data-id="${item.id}">
+          <button class="btn btn-sm btn-danger btn-remove fs-3" data-id="${
+            item.id
+          }">
             <i class="fas fa-trash"></i>
           </button>
         </td>
@@ -50,7 +52,15 @@ function renderCart() {
       </thead>
       <tbody>${rows.join("")}</tbody>
     </table>
-    <div class="text-end fs-4 fw-bold">Tổng cộng: ${formatCurrency(total)}</div>
+    <div class="text-end fs-4 fw-bold">Tổng cộng: <span class="text-danger fs-3">${formatCurrency(
+      total
+    )} </span></div>
+
+    <div class="d-flex justify-content-between align-items-center mt-4">
+      <a href="/products" class="text-decoration-none fs-3 p-3 text-dark"><-- Tiếp tục mua sắm</a>
+    <button type="button" class="btn btn-success fs-4 p-3 fw-bold">Thanh Toán
+    </button>
+    </div>
   `;
 
   attachCartEvents();

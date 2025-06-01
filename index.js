@@ -9,7 +9,7 @@ app.set("views", path.join(__dirname, "views"));
 // ✅ Cho phép truy cập file tĩnh như CSS, ảnh
 app.use(express.static("public"));
 
-app.get("/", (req, res) => res.render("index"));
+// app.get("/", (req, res) => res.render("index"));
 app.get("/about", (req, res) => res.render("about"));
 
 app.get("/contact", (req, res) => res.render("contact"));
